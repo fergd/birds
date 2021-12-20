@@ -1,0 +1,53 @@
+- name: Sharp Shinned Hawk
+  date: 2021-12-14
+  frequency: rare
+  season: winter
+- name: Nothern Flicker
+  frequency: common
+  season: spring & summer
+- name: House Sparrow
+  frequency: common
+  season: year-round
+- name: Red-Winged Black Bird
+  frequency: rare
+  season: summer
+- name: White-Breasted Nuthatch
+  frequency: common
+  season: year-round
+- name: Mourning Dove
+  frequency: common
+  season: year-round
+- name: Black-Capped Chickadee
+  frequency: common
+  season: year-round
+  image: "../blackcappedchickadee-dithered.png"
+  caption: "Black-Capped Chickadee perched on a branch."
+- name: Great Horned Owl
+  frequency: rare
+  season: winter & spring
+- name: Red Tailed Hawk
+  frequency: rare
+- name: Blue Jay
+  season: year-round
+  frequency: common
+  image: "../bluejay-dithered.png"
+- name: Downy Woodpecker
+  frequency: common
+  season: autumn
+- name: House Finch
+  frequency: common
+  season: year-round
+- name: Common Grackel
+  frequency: rare
+  season: summer & autumn
+  image: "../commongrackel-dithered.png"
+- name: Robin
+  frequency: common
+  season: spring, summer, autumn
+- name: Dark-Eyed Junco
+  frequency: common
+  season: year-round
+  image: "../darkeyedjunco-dithered.png"
+- name: Hummingbird
+  frequency: rare
+  season: summer

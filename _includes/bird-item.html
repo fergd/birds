@@ -1,0 +1,18 @@
+{% assign bird = site.data.bird | sort:'name' %}
+{% for bird in bird %} 
+<article class="bird-item">
+	<div>
+{%if bird.image %}
+<figure>
+<img src="{{bird.image}}" alt="{{bird.caption}}">
+</figure>
+{%endif%}
+<h1>{{bird.name}}</h1>
+{%if bird.date%}
+<p>Date seen: {{bird.date}}</p>
+{%endif%}
+<p>Frequency: {{bird.frequency}}</p>
+<p>Season(s) spotted: {{bird.season}}</p>
+</div>
+</article>
+{% endfor %}
