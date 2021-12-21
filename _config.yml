@@ -5,6 +5,7 @@ baseurl: "/"
 css-dir: "assets/css/"
 linkedin: "https://www.linkedin.com/in/christanfergus/"
 url: "https://yardbird.observer" 
+personal-site: "https://christanfergus.com"
 exclude:
   - .sass-cache/
   - .jekyll-cache/

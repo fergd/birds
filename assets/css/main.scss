@@ -41,8 +41,8 @@ body {
 a{
 	color: var(--link);
 }
-a[target="_blank"]:after{
-	content: U+2348;
+*[target="_blank"]::after{
+	content: "\21E5";
 }
 h1 {
     font-size: var(--ms2);
@@ -102,10 +102,10 @@ article.bird-item {
     width: 320px;
     padding: 5px;
     @media all and (max-width: 767px){
-    align-self: center;
-}
-@media all and (min-width: 768px){
-align-self: top;
+        align-self: center;
+    }
+    @media all and (min-width: 768px){
+        align-self: top;
 	}
 
     div {
@@ -124,16 +124,16 @@ align-self: top;
     h1 {
         margin-bottom: var(--ms1);
     }
-    p {
+    li {
         font-family: monospace;
         color: var(--text-default);
+        font-size: var(--ms-1);
         span{
         	@media (prefers-color-scheme: dark) {
-        	color: var(--color-splash);
-        }
+            	color: var(--color-splash);
+            }
         }
     }
-
     figure {
         width: 100%;
         margin-bottom: 13px;
@@ -150,8 +150,29 @@ align-self: top;
 }
 
 footer{
+    margin-top: var(--ms2);
 	padding: var(--ms2) 0;
 	h2{
 		margin-bottom: var(--ms0);
 	}
+}
+.visually-hidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+
+    &:focus {
+        clip: auto;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: var(--space-default) 0;
+        text-align: center;
+        font-weight: 900;
+        background: rgba(255, 255, 255, 0.5);
+    }
 }

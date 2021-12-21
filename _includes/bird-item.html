@@ -1,23 +1,27 @@
 {% assign bird = site.data.bird | sort:'name' %}
 {% for bird in bird %} 
 <article class="bird-item">
-<div>
-{%if bird.image %}
-<figure>
-<img src="{{bird.image}}" alt="{{bird.caption}}">
-</figure>
-{%else%}
-<figure>
-<img src="https://res.cloudinary.com/fergd/image/upload/v1640062612/Birds/placeholder.png" alt="">
-</figure>
-{%endif%}
-<h1>{{bird.name}}</h1>
-{%if bird.date%}
-<p>Date seen: <span>{{bird.date}}</span></p>
-{%endif%}
-<p>Frequency: <span>{{bird.frequency}}</span></p>
-<p>Season(s) spotted: <span>{{bird.season}}</span></p>
-</div>
+	<div>
+		{%if bird.image %}
+		<figure>
+		<img src="{{bird.image}}" alt="{{bird.caption}}">
+		<cite class="visually-hidden">{{bird.attribution}}</cite>
+		</figure>
+		{%else%}
+		<figure>
+		<img src="https://res.cloudinary.com/fergd/image/upload/v1640062612/Birds/placeholder.png" alt="">
+		</figure>
+		{%endif%}
+		<h1>{{bird.name}}</h1>
+		<ul>
+			{%if bird.date%}
+			<li>Date seen: <span>{{bird.date}}</span></li>
+			{%endif%}
+			<li>Frequency: <span>{{bird.frequency}}</span></li>
+			<li>Season(s) spotted: <span>{{bird.season}}</span></li>
+			<li><a href="{{bird.attribution}}" target="_blank">Source</a></li>
+		</ul>
+	</div>
 </article>
 {% endfor %}
 
