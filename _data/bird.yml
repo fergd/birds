@@ -1,4 +1,4 @@
-- name: Sharp Shinned Hawk
+- name: Sharp-Shinned Hawk
   date: 2021-12-14
   frequency: rare
   season: winter
@@ -20,7 +20,7 @@
 - name: Black-Capped Chickadee
   frequency: common
   season: year-round
-  image: "../blackcappedchickadee-dithered.png"
+  image: "../blackcappedchickadee.png"
   caption: "Black-Capped Chickadee perched on a branch."
 - name: Great Horned Owl
   frequency: rare
@@ -30,7 +30,7 @@
 - name: Blue Jay
   season: year-round
   frequency: common
-  image: "../bluejay-dithered.png"
+  image: "../bluejay.png"
 - name: Downy Woodpecker
   frequency: common
   season: autumn
@@ -40,14 +40,14 @@
 - name: Common Grackel
   frequency: rare
   season: summer & autumn
-  image: "../commongrackel-dithered.png"
-- name: Robin
+  image: "../commongrackel.png"
+- name: American Robin
   frequency: common
   season: spring, summer, autumn
 - name: Dark-Eyed Junco
   frequency: common
   season: year-round
-  image: "../darkeyedjunco-dithered.png"
+  image: "../darkeyedjunco.png"
 - name: Hummingbird
   frequency: rare
   season: summer

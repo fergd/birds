@@ -1,18 +1,22 @@
 {% assign bird = site.data.bird | sort:'name' %}
 {% for bird in bird %} 
 <article class="bird-item">
-	<div>
+<div>
 {%if bird.image %}
 <figure>
 <img src="{{bird.image}}" alt="{{bird.caption}}">
 </figure>
+{%else%}
+<figure>
+<img src="https://res.cloudinary.com/fergd/image/upload/v1640062612/Birds/placeholder.png" alt="">
+</figure>
 {%endif%}
 <h1>{{bird.name}}</h1>
 {%if bird.date%}
-<p>Date seen: {{bird.date}}</p>
+<p>Date seen: <span>{{bird.date}}</span></p>
 {%endif%}
-<p>Frequency: {{bird.frequency}}</p>
-<p>Season(s) spotted: {{bird.season}}</p>
+<p>Frequency: <span>{{bird.frequency}}</span></p>
+<p>Season(s) spotted: <span>{{bird.season}}</span></p>
 </div>
 </article>
 {% endfor %}
