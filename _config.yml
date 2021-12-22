@@ -1,10 +1,11 @@
 title: Yard Bird Observer
 description: >- # this means to ignore newlines until "baseurl:"
-  Birds spotted in one suburban yard in Denver, Colorado USA.
+  All the birds spotted in a single quarter acre suburban yard in Thornton, Colorado USA.
 baseurl: "/" 
 css-dir: "assets/css/"
 linkedin: "https://www.linkedin.com/in/christanfergus/"
 url: "https://yardbird.observer" 
+personal-site: "https://christanfergus.com"
 exclude:
   - .sass-cache/
   - .jekyll-cache/

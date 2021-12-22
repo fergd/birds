@@ -52,34 +52,34 @@
     --monospace: Menlo,Roboto Mono, 'Andale Mono WT', "Andale Mono", Consolas, "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
  
 	//Fonts & Spacing • Golden Section 1.618
-	--ms-3:             	0.236rem;
-	--ms-2:             	0.382rem;
-	--ms-1:             	0.618rem;
-	--ms0:              	1rem;
-	--ms1:              	1.618rem;
-	--ms2:              	2.618rem;
-	--ms3:              	4.236rem;
-	--ms4:              	6.854rem;
-	--ms5:              	11.089rem;
+	--ms-3: 0.236rem;
+	--ms-2: 0.382rem;
+	--ms-1: 0.618rem;
+	--ms0:  1rem;
+	--ms1:  1.618rem;
+	--ms2:  2.618rem;
+	--ms3:  4.236rem;
+	--ms4:  6.854rem;
+	--ms5:  11.089rem;
 
 	//Typography
-	--ms-dropcap:       	90rem;
-	--max-paragraph: 		35rem;
+	--ms-dropcap: 90rem;
+	--max-paragraph: 35rem;
 
 	//Font Displays
-	--f-normal:         	400;
-	--f-medium:         	400;
-	--f-heavy:          	800;
-	--f-emphasis:       	italic;
+	--f-normal: 400;
+	--f-medium: 400;
+	--f-heavy: 800;
+	--f-emphasis: italic;
 
-	--image-opacity: 		brightness(.8) contrast(1.2);
+	--image-opacity: brightness(.8) contrast(1.2);
 
 	//Borders, Outlines, Radii
-	--d-border-thickness:   1px;
-	--d-border:         	var(--d-border-thickness) solid var(--color-splash);
-	--d-radius:         	var(--ms-1);
-	--d-radius-small:   	var(--ms-2);
-	--d-radius-tiny:    	var(--ms-3);
+	--d-border-thickness: 1px;
+	--d-border: var(--d-border-thickness) solid var(--color-splash);
+	--d-radius: var(--ms-1);
+	--d-radius-small: var(--ms-2);
+	--d-radius-tiny: var(--ms-3);
 }   
 @media all and (min-width: 768px) {
 	:root {
