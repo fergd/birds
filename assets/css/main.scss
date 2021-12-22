@@ -137,12 +137,11 @@ article.bird-item {
     figure {
         width: 100%;
         margin-bottom: 13px;
+        border-radius: 0 100px;
     }
-
     img {
         max-width: 100%;
         border-radius: 0 100px;
-
         @media (prefers-color-scheme: dark) {
             filter: var(--image-opacity);
         }
