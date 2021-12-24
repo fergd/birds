@@ -1,4 +1,8 @@
 <header>
-    <h1>{{site.title}}</h1>
-    <p>{{site.byline}}</p>
+    {%if page.nolink == true %}
+    <h1 class="site-title">{{site.title}}</h1>
+    {%else%}
+    <a class="site-header-link" href="{{site.baseurl}}"><h1 class="site-title">{{site.title}}</h1></a>
+    {%endif%}
+    <p class="site-header-byline">{{site.byline}}</p>
 </header>

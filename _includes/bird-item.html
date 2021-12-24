@@ -1,25 +1,27 @@
 {% assign bird = site.data.bird | sort:'name' %}
 {% for bird in bird %} 
 <article class="bird-item">
-	<div>
+	<div class="bird-item-wrapper">
 		{%if bird.image %}
-		<figure>
-		<img src="{{bird.image}}" alt="{{bird.caption}}" loading="lazy">
-		<cite class="visually-hidden">{{bird.attribution}}</cite>
+		<figure class="bird-image-container">
+		<img class="bird-image" src="{{bird.image}}" alt="{{bird.caption}}" loading="lazy">
+		<p class="visually-hidden">Image source: <cite>{{bird.attribution}}</cite></p>
+		<figcaption>{{bird.latin-name}}</figcaption>
 		</figure>
 		{%else%}
-		<figure>
-		<img src="https://res.cloudinary.com/fergd/image/upload/v1640145036/Birds/placeholder_lazy.png" alt="" loading="lazy">
+		<figure figure class="bird-image-container">
+		<img class="bird-image" src="https://res.cloudinary.com/fergd/image/upload/v1640145036/Birds/placeholder_lazy.png" alt="" loading="lazy">
+		<figcaption>Missingus picturous</figcaption>
 		</figure>
 		{%endif%}
-		<h1>{{bird.name}}</h1>
-		<ul>
+		<h1 class="bird-item-heading">{{bird.name}}</h1>
+		<ul class="bird-item-stats">
 			{%if bird.date%}
-			<li>Date seen: <span>{{bird.date}}</span></li>
+			<li class="stat">Date seen: <span>{{bird.date}}</span></li>
 			{%endif%}
-			<li>Frequency spotted: <span>{{bird.frequency}}</span></li>
-			<li>Season(s) spotted: <span>{{bird.season}}</span></li>
-			<li><a href="{{bird.attribution}}" target="_blank">Image Source</a></li>
+			<li class="stat">Frequency spotted: <span>{{bird.frequency}}</span></li>
+			<li class="stat">Season(s) spotted: <span>{{bird.season}}</span></li>
+			<li class="stat"><a href="{{bird.attribution}}" target="_blank">Image Source</a></li>
 		</ul>
 	</div>
 </article>

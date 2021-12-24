@@ -1,4 +1,5 @@
 - name: Sharp-Shinned Hawk
+  latin-name: Accipiter striatus
   date: 2021-12-14
   frequency: rare
   season: winter
@@ -6,89 +7,104 @@
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640205436/Birds/Sharp-shinned_Hawk__50958298391.jpg
   caption: "The Sharp-Shinned Hawk perched on a brick showing its mottled breast feathers."
 - name: Nothern Flicker
+  latin-name: Colaptes auratus
   frequency: common
   season: spring & summer
   attribution: "https://commons.wikimedia.org/wiki/File:Northern_Flicker_(46976975415).jpg"
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640205436/Birds/Northern_Flicker__46976975415.jpg
   caption: "The northern flicker perched on a branch displaying a red mark on the back of the neck."
 - name: House Sparrow
+  latin-name: Passer domesticus
   frequency: common
   season: year-round
   attribution: "https://commons.wikimedia.org/wiki/File:Passer_domesticus_-_House_sparrow_03.jpg"
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640205436/Birds/512px-Passer_domesticus_-_House_sparrow_03.jpg
   caption: "A female sparrow is perched on a rock."
 - name: Red-Winged Black Bird
-  frequency: rare
+  latin-name: Agelaius phoeniceus
+  frequency: occasionally
   season: summer
   attribution: "https://commons.wikimedia.org/wiki/File:Red-winged_Blackbird_-_Flickr_-_treegrow_(14).jpg"
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640205436/Birds/Red-winged_Blackbird_-_Flickr_-_treegrow__14.jpg
   caption: "A Red-Winged Blackbird is perched on some bull rushes."
 - name: White-Breasted Nuthatch
-  frequency: common
+  latin-name: Sitta carolinensis
+  frequency: occasionally
   season: year-round
   attribution: "https://commons.wikimedia.org/wiki/File:White-Breasted_Nuthatch_(8728).jpg"
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640205436/Birds/White-Breasted_Nuthatch__8728.jpg
   caption: "The nuthatch is perched on a piece of bark looking upward displaying its long beak."
 - name: Mourning Dove
+  latin-name: Zenaida macroura
   frequency: common
   season: year-round
   attribution: "https://commons.wikimedia.org/wiki/File:Mourning_dove_in_CP_(65232).jpg"
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640205436/Birds/Mourning_dove_in_CP__65232.jpg
   caption: "The Mourning Dove perched on a branch with its earthy coloration blending into the background."
 - name: Black-Capped Chickadee
+  latin-name: Poecile atricapillus
   frequency: common
   season: year-round
   attribution: "https://commons.wikimedia.org/wiki/File:BlackCappedChickadee.jpg"
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640146043/Birds/BlackCappedChickadee.jpg
   caption: "The black-capped chickadee perched on a broken branch looking downward displaying it's shock of white on the side of its head against a black head."
 - name: Great Horned Owl
-  frequency: rare
+  latin-name: Bubo virginianus
+  frequency: occasionally
   season: winter & spring
   attribution: "https://commons.wikimedia.org/wiki/File:Great_Horned_Owl_(30706490070).jpg"
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640205436/Birds/Great_Horned_Owl__30706490070.jpg
   caption: "A Great Horned Owl sits on a branch facing the camera."
 - name: Red-Tailed Hawk
-  frequency: rare
+  latin-name: Buteo jamaicensis
+  frequency: occasionally
   attribution: "https://commons.wikimedia.org/wiki/File:Red-tailed_hawk_in_Central_Park_(30148).jpg"
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640205436/Birds/Red-tailed_hawk_in_Central_Park__30148.jpg
   caption: "A Red Tailed Hawk perched high in a tree displays its mottled chest."
 - name: Blue Jay
+  latin-name: Cyanocitta cristata
   season: year-round
   frequency: common
   attribution: https://commons.wikimedia.org/wiki/File:Cyanocitta-cristata-004.jpg
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640146043/Birds/Cyanocitta-cristata-004.jpg
   caption: "A Blue-Jay is perched on a branch against a snowy background."
 - name: Downy Woodpecker
-  frequency: common
+  latin-name: Dryobates pubescens
+  frequency: occasionally
   season: autumn
   attribution: https://commons.wikimedia.org/wiki/File:Downey_Woodpecker_(male)_a.jpg
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640205436/Birds/Downey_Woodpecker__male__a.jpg
   caption: "The Downy Woodpecker clinging to the side of a tree displaying its spot of read on its head and white dotted wings."
 - name: House Finch
+  latin-name: Haemorhous mexicanus
   frequency: common
   season: year-round
   attribution: https://commons.wikimedia.org/wiki/File:House_Finch,_southeastern_Arizona_06.jpg
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640205436/Birds/House_Finch__southeastern_Arizona_06.jpg
   caption: "The house finch perched on a thin branch against a blue sky shows it's pale red feathers that fade into brown on its body."
-- name: Common Grackel
-  frequency: rare
+- name: Common Grackle
+  latin-name: Quiscalus quiscula
+  frequency: occasionally
   season: summer & autumn
   attribution: https://commons.wikimedia.org/wiki/File:Sharp_Grackle_(49749968433).jpg
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640205436/Birds/Sharp_Grackle__49749968433.jpg
-  caption: "The common grackel perched on a thin branch shown against a cloudless sky."
+  caption: "The common grackle perched on a thin branch shown against a cloudless sky."
 - name: American Robin
+  latin-name: Turdus migratorius
   frequency: common
-  season: spring, summer, autumn
+  season: year-round
   attribution: https://commons.wikimedia.org/wiki/File:American_Robin_in_Canada.jpg
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640145683/Birds/512px-American_Robin_in_Canada.jpg
   caption: "The American Robin standing on the ground amongst leaves and a pinecone."
 - name: Dark-Eyed Junco
+  latin-name: Junco hyemalis
   frequency: common
   season: year-round
   attribution: https://commons.wikimedia.org/wiki/File:Dark-eyed_Junco,_Washington_State_06.jpg
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640205436/Birds/512px-Dark-eyed_Junco__Washington_State_06.jpg
   caption: "The dark-eyed junco perched on a broken branch displays it's dark head feathers against its lighter body."
 - name: Broad-Tailed Hummingbird
+  latin-name: Selasphorus platycercus
   frequency: rare
   season: summer
   attribution: https://commons.wikimedia.org/wiki/File:Broad-tailed_Hummingbird_male_RWD.jpg

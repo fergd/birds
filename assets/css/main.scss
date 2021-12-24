@@ -1,30 +1,143 @@
 ---
 ---
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, strike, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ul{
+    list-style: none;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        //Base Colors
+        --c-yellow: rgba(255, 204, 51, 0.7);
+        --c-grey: rgba(19, 20, 21, 1);
+        --c-white: rgba(188, 210, 220, 0.85);
+        --c-grey-50: rgba(188, 210, 220, 0.5);
+        --c-grey-25: rgba(188, 210, 220, 0.25);
+        --c-grey-05: rgba(188, 210, 220, 0.05);
+        //Color Rules
+        --background: var(--c-grey);
+        --text-default: var(--c-white);
+        --blockquote: var(--c-grey-50);
+        --accent: var(--c-grey-50);
+        --shadow: rgba(10,10,10,0.2);
+        --color-splash: var(--c-yellow);
+        --link: rgba(255, 105, 180, 0.8);
+    }
+}
+@media (prefers-color-scheme: light) {
+    :root {
+        //Base Colors
+        --c-yellow: rgba(255, 204, 51, 1);
+        --c-grey: rgba(42, 50, 62, 1);
+        --c-grey-50: rgba(42, 50, 62, 0.5);
+        --c-grey-25: rgba(42, 50, 62, 0.25);
+        --c-grey-05: rgba(42, 50, 62, 0.05);
+        //Color Rules
+        --background: var(--c-grey-05);
+        --text-default: var(--c-grey);
+        --blockquote: var(--c-grey-50);
+        --accent: var(--c-grey-50);
+        --shadow: var(--c-grey-05);
+        --color-splash: var(--c-yellow);
+    }
+}
+:root {
+    color-scheme: light dark;
+    --base-font-size: 17px;
+    --sans-serif: Helvetica, Arial, sans-serif;
+    --heading-primary: var(--sans-serif);
+    --copy-body: var(--sans-serif);
+    --monospace: Menlo,Roboto Mono, 'Andale Mono WT', "Andale Mono", Consolas, "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    //Fonts & Spacing • Golden Section 1.618
+    --ms-3: 0.236rem;
+    --ms-2: 0.382rem;
+    --ms-1: 0.618rem;
+    --ms0:  1rem;
+    --ms1:  1.618rem;
+    --ms2:  2.618rem;
+    --ms3:  4.236rem;
+    --ms4:  6.854rem;
+    --ms5:  11.089rem;
+    //Typography
+    --max-paragraph: 35rem;
+    //Font Displays
+    --f-normal: 400;
+    --f-medium: 400;
+    --f-heavy: 800;
+    --f-emphasis: italic;
+
+    --image-opacity: brightness(.8) contrast(1.2);
+
+    //Borders, Outlines, Radii
+    --d-border-thickness: 1px;
+    --d-border: var(--d-border-thickness) solid var(--color-splash);
+    --d-radius: var(--ms-1);
+    --d-radius-small: var(--ms-2);
+    --d-radius-tiny: var(--ms-3);
+}   
+@media all and (min-width: 768px) {
+    :root {
+        --base-font-size: 19px;
+    }
+}
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
-
 *::selection,
 *::-moz-selection {
     background-color: var(--color-splash);
 }
-
 :root {
     --primary-space: 2rem;
 }
-
-@import "../stylesheets/reset",
-"../stylesheets/variables",
-"../stylesheets/globals"
-;
-
-html {
+html{
     font-size: var(--base-font-size);
 }
 
-body {
+body{
     font-family: var(--sans-serif);
     font-size: 100%;
     margin: 0 auto;
@@ -40,25 +153,20 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-
-a {
+a{
     color: var(--link);
-
     @media (prefers-color-scheme: dark) {
         &:hover {
             color: HotPink;
         }
     }
 }
-
 *[target="_blank"]::after {
     content: '';
     background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NyIgaGVpZ2h0PSI2NyI+PHBhdGggZmlsbD0iIzJBMzIzRSIgZmlsbC1vcGFjaXR5PSIuOSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNNTYuNTMxIDQxLjg3NWgtNC4xODdhMi4wOTQgMi4wOTQgMCAwIDAtMi4wOTQgMi4wOTR2MTQuNjU2SDguMzc1VjE2Ljc1aDE4Ljg0NGEyLjA5NCAyLjA5NCAwIDAgMCAyLjA5My0yLjA5NFYxMC40N2EyLjA5NCAyLjA5NCAwIDAgMC0yLjA5My0yLjA5NEg2LjI4QTYuMjgxIDYuMjgxIDAgMCAwIDAgMTQuNjU2VjYwLjcyQTYuMjgxIDYuMjgxIDAgMCAwIDYuMjgxIDY3aDQ2LjA2M2E2LjI4MSA2LjI4MSAwIDAgMCA2LjI4MS02LjI4MXYtMTYuNzVhMi4wOTQgMi4wOTQgMCAwIDAtMi4wOTQtMi4wOTRaTTYzLjg2IDBINDcuMTFjLTIuNzk2IDAtNC4xOTQgMy4zOS0yLjIyNCA1LjM2NWw0LjY3NSA0LjY3Ni0zMS44OTQgMzEuODgyYTMuMTQgMy4xNCAwIDAgMCAwIDQuNDVsMi45NjcgMi45NjFhMy4xNCAzLjE0IDAgMCAwIDQuNDQ5IDBMNTYuOTYgMTcuNDQ2bDQuNjc1IDQuNjdDNjMuNTk4IDI0LjA3NyA2NyAyMi43MDMgNjcgMTkuODlWMy4xNEEzLjE0IDMuMTQgMCAwIDAgNjMuODYgMFoiLz48L3N2Zz4=');
-
     @media (prefers-color-scheme: dark) {
         background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NyIgaGVpZ2h0PSI2NyI+PHBhdGggZmlsbD0iI0I0NEU4MiIgZmlsbC1vcGFjaXR5PSIuOSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNNTYuNTMxIDQxLjg3NWgtNC4xODdhMi4wOTQgMi4wOTQgMCAwIDAtMi4wOTQgMi4wOTR2MTQuNjU2SDguMzc1VjE2Ljc1aDE4Ljg0NGEyLjA5NCAyLjA5NCAwIDAgMCAyLjA5My0yLjA5NFYxMC40N2EyLjA5NCAyLjA5NCAwIDAgMC0yLjA5My0yLjA5NEg2LjI4QTYuMjgxIDYuMjgxIDAgMCAwIDAgMTQuNjU2VjYwLjcyQTYuMjgxIDYuMjgxIDAgMCAwIDYuMjgxIDY3aDQ2LjA2M2E2LjI4MSA2LjI4MSAwIDAgMCA2LjI4MS02LjI4MXYtMTYuNzVhMi4wOTQgMi4wOTQgMCAwIDAtMi4wOTQtMi4wOTRaTTYzLjg2IDBINDcuMTFjLTIuNzk2IDAtNC4xOTQgMy4zOS0yLjIyNCA1LjM2NWw0LjY3NSA0LjY3Ni0zMS44OTQgMzEuODgyYTMuMTQgMy4xNCAwIDAgMCAwIDQuNDVsMi45NjcgMi45NjFhMy4xNCAzLjE0IDAgMCAwIDQuNDQ5IDBMNTYuOTYgMTcuNDQ2bDQuNjc1IDQuNjdDNjMuNTk4IDI0LjA3NyA2NyAyMi43MDMgNjcgMTkuODlWMy4xNEEzLjE0IDMuMTQgMCAwIDAgNjMuODYgMFoiLz48L3N2Zz4=');
     }
-
     background-repeat: no-repeat;
     background-size: contain;
     width: 0.8em;
@@ -67,15 +175,13 @@ a {
     margin-left: var(--ms-3);
     vertical-align: baseline;
 }
-
-h1 {
+h1{
     font-size: var(--ms2);
     letter-spacing: -0.09ch;
     font-weight: var(--f-heavy);
     line-height: 0.9;
 }
-
-h2 {
+h2{
     font-size: var(--ms1);
     font-family: var(--heading-primary);
     font-weight: var(--f-heavy);
@@ -83,13 +189,11 @@ h2 {
     line-height: 1;
     color: var(--text-default);
 }
-
-p {
+p{
     font-size: 13px;
     font-weight: 400;
 }
-
-hr {
+hr{
     height: var(--d-border-thickness);
     background: var(--color-splash);
     border: 0;
@@ -103,30 +207,30 @@ hr {
         }
     }
 }
-
-header {
+header{
     padding: var(--ms1) 0 var(--ms2) 0;
 
-    h1 {
+    h1.site-title{
         font-size: var(--ms3);
         margin-left: -3px;
         color: var(--color-splash);
     }
+    a.site-header-link{
+        text-decoration: none;
+        color: var(--color-splash);
+    }
 
-    p {
+    p.site-header-byline{
         font-size: var(--ms0);
     }
 }
-
-li {
+li{
     margin-bottom: var(--ms-1);
 }
-
-main {
+main{
     max-width: 100%;
     display: flex;
     flex-direction: column;
-
     @media all and (min-width: 768px) {
         flex-direction: row;
         flex-wrap: wrap;
@@ -134,90 +238,94 @@ main {
         justify-content: space-around;
     }
 }
-
-article.bird-item {
+article.bird-item{
     width: 320px;
     padding: 5px;
-
     @media all and (max-width: 767px) {
         align-self: center;
     }
-
     @media all and (min-width: 768px) {
         align-self: top;
     }
-
-    div {
+    div.bird-item-wrapper{
         border-radius: 200px 0 50px 0;
         padding: var(--ms-1);
-
         @media (prefers-color-scheme: light) {
             margin: var(--ms0) 0;
             box-shadow: 15px 25px 30px 2px rgba(0, 0, 0, 0.1);
             background-color: rgba(255, 255, 255, 0.1);
         }
-
         @media (prefers-color-scheme: dark) {
             border: solid var(--d-border-thickness) rgba(255, 204, 51, 0.3);
             margin: var(--ms0) 0;
             box-shadow: 15px 25px 30px 2px rgba(0, 0, 0, 1);
         }
     }
-
-    h1 {
+    h1.bird-item-heading{
         margin-bottom: var(--ms1);
         font-size: var(--ms1);
     }
-
-    h1::first-line {
+    h1.bird-item-heading::first-line {
         font-size: var(--ms2);
     }
-
-    li {
+    li.stat{
         font-family: monospace;
         color: var(--text-default);
         font-size: var(--ms-1);
-
-        span {
+        span{
             @media (prefers-color-scheme: dark) {
                 color: var(--color-splash);
             }
         }
     }
-
-    figure {
+    figure.bird-image-container{
         width: 100%;
+        position: relative;
         margin-bottom: 13px;
         border-radius: 0 100px;
+        figcaption{
+            position: absolute;
+            font-style: italic;
+            font-family: serif;
+            font-size: var(--ms-1);
+            padding: var(--ms-1) 0 var(--ms-1) var(--ms-1);
+            right: 0;
+            bottom: 0;
+            border-radius: 30px 0 0 0;
+            text-align: right;
+            background-color: #f4f4f5;
+            @media (prefers-color-scheme: dark) {
+                background: var(--background);
+                color: var(--color-splash);                
+            }
+        }
     }
-
-    img {
+    img.bird-image{
         max-width: 100%;
         border-radius: 0 100px;
-
         @media (prefers-color-scheme: dark) {
             filter: var(--image-opacity);
         }
     }
 }
-
-footer {
+footer.site-footer{
     margin-top: var(--ms2);
     padding: var(--ms2) 0;
 
-    h2 {
+    h2.footer-heading{
         margin-bottom: var(--ms0);
         color: var(--color-splash);
     }
+    p.boilerplate{
+        font-family: var(--monospace);
+    }
 }
-
 .visually-hidden {
     position: absolute !important;
     height: 1px;
     width: 1px;
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
-
     &:focus {
         clip: auto;
         left: 0;
