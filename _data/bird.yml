@@ -103,10 +103,18 @@
   attribution: https://commons.wikimedia.org/wiki/File:Dark-eyed_Junco,_Washington_State_06.jpg
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640205436/Birds/512px-Dark-eyed_Junco__Washington_State_06.jpg
   caption: "The dark-eyed junco perched on a broken branch displays it's dark head feathers against its lighter body."
-- name: Broad-Tailed Hummingbird
-  latin-name: Selasphorus platycercus
+- name: Rufous hummingbird
+  latin-name: Selasphorus rufus
   frequency: rare
   season: summer
-  attribution: https://commons.wikimedia.org/wiki/File:Broad-tailed_Hummingbird_male_RWD.jpg
-  image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640146043/Birds/Broad-tailed_Hummingbird_male_RWD.jpg
+  attribution: https://commons.wikimedia.org/wiki/File:USFWS_ribes_sanguineum_(26123508822).jpg
+  image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640365814/Birds/USFWS_ribes_sanguineum__26123508822.jpg
   caption: "The Broad-Tailed Hummingbird perched on a branch."
+- name: American Crow
+  latin-name: Corvus brachyrhynchos
+  date: 2021-12-24
+  frequency: rare
+  season: year-round
+  attribution: https://commons.wikimedia.org/wiki/File:2014-04-29_01_Northwestern_crow_(Corvus_brachyrhynchos_caurinus).jpg
+  image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640365374/Birds/2014-04-29_01_Northwestern_crow__Corvus_brachyrhynchos_caurinus.jpg
+  caption: "A crow is perched on a branch, warily eyeing the camera."
