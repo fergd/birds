@@ -1,7 +1,6 @@
 title: Yard Bird Observer
 description: >- # this means to ignore newlines until "baseurl:"
-  Check out photos and names of birds spotted in Thornton, Colorado, USA. You too may be lucky enough to see these!
-byline: All the birds spotted in a single, quarter-acre suburban yard in Thornton, Colorado USA.
+  A list of birds spotted in a single, quarter-acre suburban yard in Thornton, Colorado USA.
 baseurl: "/" 
 css-dir: "assets/css/"
 js-dir: "assets/js/"

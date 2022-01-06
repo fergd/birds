@@ -118,3 +118,18 @@
   attribution: https://commons.wikimedia.org/wiki/File:2014-04-29_01_Northwestern_crow_(Corvus_brachyrhynchos_caurinus).jpg
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640365374/Birds/2014-04-29_01_Northwestern_crow__Corvus_brachyrhynchos_caurinus.jpg
   caption: "A crow is perched on a table, warily eyeing the camera."
+- name: Common Pigeon
+  latin-name: Columba livia
+  frequency: rare
+  season: year-round
+  attribution: https://commons.wikimedia.org/wiki/File:Rock_dove_-_natures_pics.jpg
+  image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1641507909/Birds/Rock_Dove.jpg
+  caption: "The common pigeon is shown with wings spread as it flies."
+#- name: 
+#  latin-name: 
+#  date: 
+#  frequency: 
+#  season: 
+#  attribution: 
+#  image: 
+#  caption:  
