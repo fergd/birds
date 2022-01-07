@@ -255,7 +255,7 @@ main{
             }
         }
         .bird-item-wrapper{
-            padding: var(--ms1);
+            padding: var(--ms-1) var(--ms1) var(--ms0) var(--ms1);
             h2.counter-title{
                 color: var(--color-splash);
                 margin-bottom: var(--ms1);
