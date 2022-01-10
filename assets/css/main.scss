@@ -208,6 +208,9 @@ hr{
 }
 header{
     padding: var(--ms1) 0 var(--ms2) 0;
+    @media all and (max-width: 740px){
+        text-align:center;
+    }
 
     h1.site-title{
         font-size: var(--ms3);
@@ -220,6 +223,10 @@ header{
     }
     p.site-header-byline{
         font-size: var(--ms0);
+        @media all and (max-width: 740px){
+            margin-top: var(--ms1);
+            line-height: 1.5;
+        }
     }
 }
 li{
@@ -257,8 +264,10 @@ main{
         .bird-item-wrapper{
             padding: var(--ms-1) var(--ms1) var(--ms0) var(--ms1);
             h2.counter-title{
+                white-space: nowrap;
                 color: var(--color-splash);
                 margin-bottom: var(--ms1);
+                margin-left: -35px;
                 span.counter-number{
                     display: inline-block;
                     padding: 30px;
