@@ -19,7 +19,6 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
     font: inherit;
     vertical-align: baseline;
 }
@@ -335,6 +334,44 @@ main{
                 background: var(--background);
                 color: var(--color-splash);                
             }
+        }
+        &.uncertain::before{
+            content: "?";
+            transition: all;
+            font-family: var(--monospace); 
+            font-weight: 900;
+            font-size: var(--ms0);
+            position:absolute;
+            z-index: 1;
+            top: -0.9rem;
+            left: -0.9rem;
+            border-radius: 100%;
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 40px;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            border: 1px dashed HotPink;
+            background: var(--background);
+            @media (prefers-color-scheme: light) {
+                background: white ;
+                color: var(--text-default);
+            }
+            opacity: 0.9;
+            color: rgb(172, 172, 222);
+            transition: width 0.5s, height 0.5s, transform 0.5s ease-out;
+        }
+        &.uncertain:hover::before{
+            content: "Certainty is low that this is the correct identification.";
+            font-size: var(--ms-1);
+            font-weight: 400;
+            line-height: 1.2;
+            width: 100%;
+            border-radius: 4px;
+            text-align: left;
+            height: auto;
+            padding: var(--ms-1);
         }
     }
     img.bird-image{
