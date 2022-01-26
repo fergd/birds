@@ -3,9 +3,9 @@
 <article class="bird-item">
 	<div class="bird-item-wrapper">
 		{%if bird.image %}
-		<figure class="bird-image-container">
+		<figure class="bird-image-container {% if bird.uncertain %}uncertain{%endif%}">
 		<img class="bird-image" src="{{bird.image}}" alt="{{bird.caption}}" loading="lazy">
-		<p class="visually-hidden">Image source: <cite>{{bird.attribution}}</cite></p>
+		<p class="visually-hidden">Image source: <cite>{{bird.page_url}}</cite></p>
 		<figcaption>{{bird.latin-name}}</figcaption>
 		</figure>
 		{%else%}
@@ -21,7 +21,7 @@
 			{%endif%}
 			<li class="stat">Frequency spotted: <span>{{bird.frequency}}</span></li>
 			<li class="stat">Season(s) spotted: <span>{{bird.season}}</span></li>
-			<li class="stat"><a href="{{bird.attribution}}" target="_blank">Image Source</a></li>
+			<li class="stat"><a href="{{bird.page_url}}" target="_blank">Image Source</a></li>
 		</ul>
 	</div>
 </article>
