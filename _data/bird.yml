@@ -134,6 +134,14 @@
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1643210999/Birds/Rusty_Blackbird__23630218082.jpg
   caption: "A rusty blackbird perched on a thin branch."
   uncertain: true 
+- name: Rose-Breasted Grosbeak
+  latin-name: Pheucticus ludovicianus
+  date: 05/03/2022
+  frequency: rare
+  season: spring (migration)
+  page_url: https://commons.wikimedia.org/wiki/File:RosebreastedGrosbeak08.jpg
+  image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1651702933/Birds/RosebreastedGrosbeak08.jpg
+  caption: A male Rose-Breasted Grosbeak with a black head and red flash on its white breast is perched on a branch
 #- name: 
 #  latin-name: 
 #  date: 
