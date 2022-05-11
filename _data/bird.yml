@@ -142,6 +142,14 @@
   page_url: https://commons.wikimedia.org/wiki/File:RosebreastedGrosbeak08.jpg
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1651702933/Birds/RosebreastedGrosbeak08.jpg
   caption: A male Rose-Breasted Grosbeak with a black head and red flash on its white breast is perched on a branch
+- name: Eurasian Collared Dove
+  latin-name: Streptopelia decaocto
+  date: 
+  frequency: common
+  season: year-round
+  page_url: https://commons.wikimedia.org/wiki/File:Streptopelia_decaocto_-_Eurasian_Collared_Dove_05.jpg
+  image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1652294629/Birds/Streptopelia_decaocto_-_Eurasian_Collared_Dove_05.jpg 
+  caption: "A boring collared dove looks warily at the camera."
 #- name: 
 #  latin-name: 
 #  date: 
