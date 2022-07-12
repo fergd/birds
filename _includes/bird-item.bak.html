@@ -1,3 +1,5 @@
+{% assign bird = site.data.bird | sort:'name' %}
+{% for bird in bird %} 
 <article class="bird-item">
 	<div class="bird-item-wrapper">
 		{%if bird.image %}
@@ -12,11 +14,7 @@
 		<figcaption>Missingus picturous</figcaption>
 		</figure>
 		{%endif%}
-		{% if page.bird %} 
-		<h1 class="bird-item-heading">{{bird.name}}</h1>
-		{% else %} 
-		<a href="{{post.permalink}}"><h1 class="bird-item-heading">{{bird.name}}</h1></a>
-		{% endif %} 
+		<a href="{{bird.url}}"><h1 class="bird-item-heading">{{bird.name}}</h1></a>
 		<ul class="bird-item-stats">
 			{%if bird.date%}
 			<li class="stat">Date spotted: <span>{{bird.date}}</span></li>
@@ -27,3 +25,4 @@
 		</ul>
 	</div>
 </article>
+{% endfor %}

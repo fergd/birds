@@ -6,7 +6,7 @@
   page_url: "https://commons.wikimedia.org/wiki/File:Sharp-shinned_Hawk_(50958298391).jpg"
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640205436/Birds/Sharp-shinned_Hawk__50958298391.jpg
   caption: "The Sharp-Shinned Hawk perched on a brick showing its mottled breast feathers."
-- name: Nothern Flicker
+- name: Northern Flicker
   latin-name: Colaptes auratus
   frequency: common
   season: spring & summer
@@ -104,13 +104,13 @@
   page_url: https://commons.wikimedia.org/wiki/File:Dark-eyed_Junco,_Washington_State_06.jpg
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640205436/Birds/512px-Dark-eyed_Junco__Washington_State_06.jpg
   caption: "The dark-eyed junco perched on a broken branch displays it's dark head feathers against its lighter body."
-- name: Rufous hummingbird
-  latin-name: Selasphorus rufus
-  frequency: rare
+- name: Black-chinned hummingbird
+  latin-name: Archilochus alexandri
+  frequency: common in summer
   season: summer
-  page_url: https://commons.wikimedia.org/wiki/File:USFWS_ribes_sanguineum_(26123508822).jpg
-  image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1640365814/Birds/USFWS_ribes_sanguineum__26123508822.jpg
-  caption: "The Broad-Tailed Hummingbird perched on a branch."
+  page_url: https://commons.wikimedia.org/wiki/File:Archilochus-alexandri-003.jpg#file
+  image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1656809501/Birds/640px-Archilochus-alexandri-003.jpg
+  caption: "The Black-chinned hummingbird hovering."
 - name: American Crow
   latin-name: Corvus brachyrhynchos
   date: 2021-12-24
@@ -150,6 +150,14 @@
   page_url: https://commons.wikimedia.org/wiki/File:Streptopelia_decaocto_-_Eurasian_Collared_Dove_05.jpg
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1652294629/Birds/Streptopelia_decaocto_-_Eurasian_Collared_Dove_05.jpg 
   caption: "A boring collared dove looks warily at the camera."
+- name: American Goldfinch
+  latin-name: Spinus tristis
+  date: 2022-07-11
+  frequency: rare
+  season: summer
+  page_url: https://commons.wikimedia.org/wiki/File:Carduelis-tristis-002.jpg
+  image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1657583478/Birds/Carduelis-tristis-002.jpg
+  caption: "An American Goldfinch perched on a stick."
 #- name: 
 #  latin-name: 
 #  date: 
