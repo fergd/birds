@@ -207,8 +207,8 @@ hr{
 }
 header{
     padding: var(--ms1) var(--ms0) var(--ms2) var(--ms0);
-    text-align: center;
     h1.site-title{
+        text-align: center;
         font-size: var(--ms4);
         @media all and (max-width: 500px){
             font-size: var(--ms2);
@@ -216,11 +216,15 @@ header{
         margin-left: -3px;
         color: var(--color-splash);
     }
+    h1.site-title-small{
+        font-size: var(--ms1);
+    }
     a.site-header-link{
         text-decoration: none;
         color: var(--color-splash);
     }
     p.site-header-byline{
+        text-align: center;
         font-size: var(--ms0);
         font-family: var(--monospace);
         border: hotpink 1px dashed;
