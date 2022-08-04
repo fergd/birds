@@ -1,7 +1,6 @@
 title: Yard Bird Observer
-description: >-
-  A list of birds spotted in a single, quarter-acre suburban yard in Thornton, Colorado USA.
-baseurl: "/" 
+description: "A list of birds spotted in a single, quarter-acre suburban yard in Thornton, Colorado USA."
+baseurl: / 
 css-dir: "assets/css/"
 js-dir: "assets/js/"
 linkedin: "https://www.linkedin.com/in/christanfergus/"
