@@ -4,6 +4,7 @@ title: Northern Shrike
 permalink: /bird/northern-shrike
 bird: 
   name: Northern Shrike
+  date: 2022-12-07
   latin-name: Lanius borealis
   frequency: rare
   season: Autumn
