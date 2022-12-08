@@ -1,0 +1,14 @@
+---
+layout: post
+title: Northern Shrike
+permalink: /bird/northern-shrike
+bird: 
+  name: Northern Shrike
+  latin-name: Lanius borealis
+  frequency: rare
+  season: Autumn
+  page_url: https://commons.wikimedia.org/wiki/File:Northern_Shrike_(8128455040).jpg
+  image: https://res.cloudinary.com/fergd/image/upload/v1670514795/Birds/512px-Northern_Shrike__8128455040.jpg
+  caption: "A northern shrike perched on a branch."
+  uncertain: false 
+---
