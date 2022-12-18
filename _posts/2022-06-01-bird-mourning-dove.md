@@ -4,7 +4,7 @@ title: Mourning Dove
 permalink: mourning-dove
 bird:
   name: Mourning Dove
-  latin-name: Zenaida macroura
+  binomial-name: Zenaida macroura
   frequency: common
   season: year-round
   page_url: "https://commons.wikimedia.org/wiki/File:Mourning_dove_in_CP_(65232).jpg"

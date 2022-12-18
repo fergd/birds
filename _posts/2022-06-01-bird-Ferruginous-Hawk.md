@@ -4,7 +4,7 @@ title: Ferruginous Hawk
 permalink: bird/ferruginous-hawk
 bird:
   name: Ferruginous Hawk
-  latin-name: Buteo regalis
+  binomial-name: Buteo regalis
   frequency: occasionally
   season: year-round
   page_url: "https://commons.wikimedia.org/wiki/File:HAWK,_FERRUGINOUS_(12-29-07)_ca_val_-02_(2147869372).jpg"

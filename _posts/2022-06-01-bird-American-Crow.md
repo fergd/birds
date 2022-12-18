@@ -4,7 +4,7 @@ title: American Goldfinch
 permalink: bird/american-goldfinch
 bird:
   name: American Goldfinch
-  latin-name: Spinus tristis
+  binomial-name: Spinus tristis
   date: 2022-07-11
   frequency: rare
   season: summer

@@ -4,7 +4,7 @@ title: White-breasted Nuthatch
 permalink: white-breasted-nuthatch
 bird: 
   name: White-Breasted Nuthatch
-  latin-name: Sitta carolinensis
+  binomial-name: Sitta carolinensis
   frequency: occasionally
   season: year-round
   page_url: https://commons.wikimedia.org/wiki/File:White-Breasted_Nuthatch_(8728).jpg

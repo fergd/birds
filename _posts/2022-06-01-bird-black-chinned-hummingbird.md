@@ -4,7 +4,7 @@ title: Black-Chinned Hummingbird
 permalink: bird/rufous-hummingbird
 bird:
   name: Black-chinned hummingbird
-  latin-name: Archilochus alexandri
+  binomial-name: Archilochus alexandri
   frequency: common in summer
   season: summer
   page_url: https://commons.wikimedia.org/wiki/File:Archilochus-alexandri-003.jpg#file

@@ -4,7 +4,7 @@ title: Eurasian Collared Dove
 permalink: bird/eurasian-collared-dove
 bird: 
   name: Eurasian Collared Dove
-  latin-name: Streptopelia decaocto
+  binomial-name: Streptopelia decaocto
   date: 
   frequency: common
   season: year-round

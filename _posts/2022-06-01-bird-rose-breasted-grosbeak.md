@@ -4,7 +4,7 @@ title: Rose-breasted Grosbeak
 permalink: bird/rose-breasted-grosbeak
 bird:
   name: Rose-Breasted Grosbeak
-  latin-name: Pheucticus ludovicianus
+  binomial-name: Pheucticus ludovicianus
   date: 05/03/2022
   frequency: rare
   season: spring (migration)

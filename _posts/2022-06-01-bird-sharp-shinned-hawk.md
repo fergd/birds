@@ -4,7 +4,7 @@ title: Sharp-shinned Hawk
 permalink: bird/sharp-shinned-hawk
 bird:
   name: Sharp-Shinned Hawk
-  latin-name: Accipiter striatus
+  binomial-name: Accipiter striatus
   date: 2021-12-14
   frequency: rare
   season: winter

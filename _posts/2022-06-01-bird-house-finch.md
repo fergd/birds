@@ -4,7 +4,7 @@ title: House Finch
 permalink: bird/house-finch
 bird:
   name: House Finch
-  latin-name: Haemorhous mexicanus
+  binomial-name: Haemorhous mexicanus
   frequency: common
   season: year-round
   page_url: https://commons.wikimedia.org/wiki/File:House_Finch,_southeastern_Arizona_06.jpg

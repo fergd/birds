@@ -6,7 +6,7 @@
 		<figure class="bird-image-container {% if bird.uncertain %}uncertain{%endif%}">
 		<img class="bird-image" src="{{bird.image}}" alt="{{bird.caption}}" loading="lazy">
 		<p class="visually-hidden">Image source: <cite>{{bird.page_url}}</cite></p>
-		<figcaption>{{bird.latin-name}}</figcaption>
+		<figcaption>{{bird.binomial-name}}</figcaption>
 		</figure>
 		{%else%}
 		<figure figure class="bird-image-container">

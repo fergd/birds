@@ -4,7 +4,7 @@ title: House Sparrow
 permalink: bird/house-sparrow
 bird:
   name: House Sparrow
-  latin-name: Passer domesticus
+  binomial-name: Passer domesticus
   frequency: common
   season: year-round
   page_url: "https://commons.wikimedia.org/wiki/File:Passer_domesticus_-_House_sparrow_03.jpg"
