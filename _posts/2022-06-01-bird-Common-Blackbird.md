@@ -4,7 +4,7 @@ title: Common Blackbird
 permalink: /bird/common-blackbird
 bird: 
   name: Common Blackbird
-  latin-name: Turdus merula
+  binomial-name: Turdus merula
   frequency: rare
   season: unknown
   page_url: https://commons.wikimedia.org/wiki/File:Blackbird_-_Turdus_merula_-_Karatavuk_02.jpg

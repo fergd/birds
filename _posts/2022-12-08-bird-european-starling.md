@@ -4,7 +4,7 @@ title: European Starling
 permalink: /bird/european-starling
 bird: 
   name: European Starling
-  latin-name: Sturnus vulgaris
+  binomial-name: Sturnus vulgaris
   frequency: rare
   season: Summer
   page_url: https://commons.wikimedia.org/wiki/File:European_starling_at_Bodega_Head-1209.jpg

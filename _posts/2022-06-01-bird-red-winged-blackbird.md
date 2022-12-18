@@ -4,7 +4,7 @@ title: Red-winged Blackbird
 permalink: bird/red-winged-blackbird
 bird:
   name: Red-Winged Black Bird
-  latin-name: Agelaius phoeniceus
+  binomial-name: Agelaius phoeniceus
   frequency: occasionally
   season: summer
   page_url: "https://commons.wikimedia.org/wiki/File:Red-winged_Blackbird_-_Flickr_-_treegrow_(14).jpg"

@@ -4,7 +4,7 @@ title: Northern Flicker
 permalink: bird/northern-flicker
 bird:
   name: Northern Flicker
-  latin-name: Colaptes auratus
+  binomial-name: Colaptes auratus
   frequency: common
   season: spring & summer
   page_url: "https://commons.wikimedia.org/wiki/File:Northern_Flicker_(46976975415).jpg"

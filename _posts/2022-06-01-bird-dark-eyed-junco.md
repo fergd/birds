@@ -4,7 +4,7 @@ title: Dark-Eyed Junko
 permalink: bird/dark-eyed-junko
 bird:
   name: Dark-Eyed Junco
-  latin-name: Junco hyemalis
+  binomial-name: Junco hyemalis
   frequency: common
   season: year-round
   page_url: https://commons.wikimedia.org/wiki/File:Dark-eyed_Junco,_Washington_State_06.jpg

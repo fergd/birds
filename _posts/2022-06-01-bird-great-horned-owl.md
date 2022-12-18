@@ -4,7 +4,7 @@ title: Great Horned Owl
 permalink: bird/great-horned-owl
 bird:
   name: Great Horned Owl
-  latin-name: Bubo virginianus
+  binomial-name: Bubo virginianus
   frequency: occasionally
   season: winter & spring
   page_url: "https://commons.wikimedia.org/wiki/File:Great_Horned_Owl_(30706490070).jpg"

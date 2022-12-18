@@ -4,7 +4,7 @@ title: Blue Jay
 permalink: bird/blue-jay
 bird:
   name: Blue Jay
-  latin-name: Cyanocitta cristata
+  binomial-name: Cyanocitta cristata
   season: year-round
   frequency: common
   page_url: https://commons.wikimedia.org/wiki/File:Cyanocitta-cristata-004.jpg

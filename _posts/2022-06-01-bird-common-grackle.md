@@ -4,7 +4,7 @@ title: Common Grackel
 permalink: /bird/common-grackel
 bird:
   name: Common Grackle
-  latin-name: Quiscalus quiscula
+  binomial-name: Quiscalus quiscula
   frequency: occasionally
   season: summer & autumn
   page_url: https://commons.wikimedia.org/wiki/File:Sharp_Grackle_(49749968433).jpg

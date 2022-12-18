@@ -4,7 +4,7 @@ title: American Robin
 permalink: bird/american-robin
 bird:
   name: American Robin
-  latin-name: Turdus migratorius
+  binomial-name: Turdus migratorius
   frequency: common
   season: year-round
   page_url: https://commons.wikimedia.org/wiki/File:American_Robin_in_Canada.jpg

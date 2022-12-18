@@ -4,7 +4,7 @@ title: Black-Capped Chickadee
 permalink: bird/black-capped-chickadee
 bird: 
   name: Black-Capped Chickadee
-  latin-name: Poecile atricapillus
+  binomial-name: Poecile atricapillus
   frequency: common
   season: year-round
   page_url: "https://commons.wikimedia.org/wiki/File:BlackCappedChickadee.jpg"
