@@ -12,4 +12,5 @@ bird:
   image: https://res.cloudinary.com/fergd/image/upload/v1670514795/Birds/512px-Northern_Shrike__8128455040.jpg
   caption: "A northern shrike perched on a branch."
   uncertain: false 
+  type-of-sighting: in yard
 ---
