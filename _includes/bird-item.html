@@ -1,4 +1,4 @@
-<article class="bird-item">
+<article class="bird-item" id="{{post.permalink | remove: 'bird/'}}">
 	<div class="bird-item-wrapper">
 		{%if bird.image %}
 		<figure class="bird-image-container {% if bird.uncertain %}uncertain{%endif%}">
