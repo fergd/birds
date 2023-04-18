@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Western wood pewee
-permalink: /bird/western-wood-pewee
+permalink: bird/western-wood-pewee
 bird: 
   name: Western wood pewee
   binomial-name: Contopus sordidulus
