@@ -4,10 +4,7 @@ title: Home
 nolink: true 
 ---
 {% assign post = site.posts | sort:"title" %} 
-{% for post in post %} 
-{% assign bird = post.bird %}
-{% include bird-item.html %}
-{% endfor %} 
+
 <article class="bird-item counter">
 	<div class="bird-item-wrapper">
 	    <h2 class="counter-title"><span class="counter-number">{{site.posts | size }}</span> Spotted &amp; Counting...</h2>
@@ -17,5 +14,8 @@ nolink: true
 	</div>
 </article> 
 
-
+{% for post in post %} 
+{% assign bird = post.bird %}
+{% include bird-item.html %}
+{% endfor %} 
 
