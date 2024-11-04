@@ -274,7 +274,6 @@ main{
         .bird-item-wrapper{
             padding: var(--ms-1) var(--ms1) var(--ms0) var(--ms1);
             h2.counter-title{
-                white-space: nowrap;
                 color: var(--color-splash);
                 margin-bottom: var(--ms1);
                 margin-left: -35px;
@@ -394,6 +393,7 @@ main{
         }
     }
 }
+
 footer.site-footer{
     margin-top: var(--ms2);
     padding: var(--ms2) var(--ms0);

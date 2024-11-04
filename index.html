@@ -5,6 +5,12 @@ nolink: true
 ---
 {% assign post = site.posts | sort:"title" %} 
 
+ 
+
+{% for post in post %} 
+{% assign bird = post.bird %}
+{% include bird-item.html %}
+{% endfor %} 
 <article class="bird-item counter">
 	<div class="bird-item-wrapper">
 	    <h2 class="counter-title"><span class="counter-number">{{site.posts | size }}</span> Spotted &amp; Counting...</h2>
@@ -12,10 +18,4 @@ nolink: true
 		<p class="about-text">On the property, we have multiple bird feeders. Some are situated in a young poplar tree in the backyard, which we keep stocked with various seeds and suet, and another is positioned in a maple tree in the front. Bird baths in both the front and back are particularly enjoyed by sparrows and blue jays.</p>
 		<p class="about-text">In the backyard stands a towering old cottonwood tree where hawks and owls often perch to observe. Thick bushes line the perimeter, providing ample cover. All of this, combined with the absence of pets, seems to have rendered my small patch of earth quite attractive to local birds and those merely passing through.</p>
 	</div>
-</article> 
-
-{% for post in post %} 
-{% assign bird = post.bird %}
-{% include bird-item.html %}
-{% endfor %} 
-
+</article>
