@@ -166,6 +166,14 @@
   page_url: https://commons.wikimedia.org/wiki/File:Carduelis-tristis-002.jpg
   image: https://res.cloudinary.com/fergd/image/upload/q_auto/v1657583478/Birds/Carduelis-tristis-002.jpg
   caption: "An American Goldfinch perched on a stick."
+- name: Hairy woodpecker
+  binomial-name: Leuconotopicus villosus
+  date: 2025-01-01
+  frequency: rare
+  season: winter
+  page_url: hhttps://commons.wikimedia.org/wiki/File:Leuconotopicus_villosus_UL_01.jpg
+  image: https://res.cloudinary.com/fergd/image/upload/v1744899636/Leuconotopicus_villosus_UL_01_uwdc87.jpg
+  caption: "A hairy woodpecker clinging to the side of a tree."
 #- name: 
 #  binomial-name: 
 #  date: 
